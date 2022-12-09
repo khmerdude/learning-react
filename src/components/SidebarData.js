@@ -1,7 +1,7 @@
 import React from 'react'
 import * as ImIcons from 'react-icons/im';
 import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+import * as IconName  from 'react-icons/ri';
 
 
 export const SidebarData = [
@@ -15,6 +15,12 @@ export const SidebarData = [
         title: 'React Facts',
         path: '/facts',
         icon: <ImIcons.ImBooks />,
+        classname: 'nav-text'
+    },
+    {
+        title: 'AirBnB',
+        path: '/airbnb',
+        icon: <IconName.RiHomeWifiLine />,
         classname: 'nav-text'
     },
 ]
